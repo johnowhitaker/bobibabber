@@ -1,0 +1,8 @@
+To get the code running:
+
+1) Install dependancies - scikit-learn, PIL, numpy, matplotlib
+   e.g. on Ubuntu "sudo apt-get install python-sklearn python-imaging python-numpy python-matplotlib"
+   
+2) Make sure the folder called 'sklearn' is in the same directory as classify_cascade.py and multilayer_perceptron.py (this contains some files that aren't in the normal sklearn package but are required (I'm working on fixing this).
+3) Edit classify_cascade.py to point to your training images etc
+4) play around with the code in Haar_extractor.py - its very simple at the moment and can be much improved.
